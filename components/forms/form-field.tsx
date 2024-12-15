@@ -1,6 +1,6 @@
 interface FormFieldProps {
   label: string;
-  description: string;
+  description: React.ReactNode;
   id: string;
   type?: string;
   placeholder?: string;

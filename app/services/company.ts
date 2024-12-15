@@ -1,4 +1,4 @@
-export async function checkCompanyStatus(companyName: string): Promise<boolean> {
+export async function checkRegisteredStaffingCompanyStatus(companyName: string): Promise<boolean> {
   try {
     // TODO: Run check against https://www.arbeidstilsynet.no/godkjenninger/godkjente-bemanningsforetak/
     if (companyName == "Qwert AS") {
