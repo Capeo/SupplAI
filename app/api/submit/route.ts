@@ -19,6 +19,7 @@ export async function POST(request: Request) {
     return NextResponse.json(analysis);
 
   } catch (error) {
+    console.log(`Failed to process submission ${error}`)
     return NextResponse.json({ error: "Failed to process submission" }, { status: 500 });
   }
 } 
